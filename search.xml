@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World 111</title>
+    <url>/2020/06/01/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>文章标题</title>
+    <url>/2020/06/01/%E6%96%87%E7%AB%A0%E6%A0%87%E9%A2%98/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>一.Git</title>
+    <url>/2020/06/01/%E4%B8%80.Git/</url>
+    <content><![CDATA[<h4 id="一-Git"><a href="#一-Git" class="headerlink" title="一.Git"></a>一.Git</h4><h5 id="1-git项目签名"><a href="#1-git项目签名" class="headerlink" title="1.git项目签名"></a>1.git项目签名</h5><p><img src="E:%5CTypora%E7%AC%94%E8%AE%B0%5CPic%5C1566893112488.png" alt="1566893112488"></p>
+<p><img src="E:%5CTypora%E7%AC%94%E8%AE%B0%5CPic%5C1566893200785.png" alt="1566893200785"></p>
+<h5 id="2-Git系统签名"><a href="#2-Git系统签名" class="headerlink" title="2.Git系统签名"></a>2.Git系统签名</h5><p><img src="E:%5CTypora%E7%AC%94%E8%AE%B0%5CPic%5C1566893855188.png" alt="1566893855188"></p>
+<p><img src="E:%5CTypora%E7%AC%94%E8%AE%B0%5CPic%5C1566894086089.png" alt="1566894086089"></p>
+<p><img src="E:%5CTypora%E7%AC%94%E8%AE%B0%5CPic%5C1566897470471.png" alt="1566897470471"></p>
+<p><img src="E:%5CTypora%E7%AC%94%E8%AE%B0%5CPic%5C1566897501314.png" alt="1566897501314"></p>
+<p><img src="E:%5CTypora%E7%AC%94%E8%AE%B0%5CPic%5C1566906067423.png" alt="1566906067423"></p>
+<p><img src="E:%5CTypora%E7%AC%94%E8%AE%B0%5CPic%5C1566906225254.png" alt="1566906225254"></p>
+<p>​    查看移动几步到指定的版本</p>
+<p>​        指令： git     reflog</p>
+<p><img src="E:%5CTypora%E7%AC%94%E8%AE%B0%5CPic%5C1566906403159.png" alt="1566906403159"></p>
+<h5 id="3-版本回退"><a href="#3-版本回退" class="headerlink" title="3.版本回退"></a>3.版本回退</h5><p><img src="E:%5CTypora%E7%AC%94%E8%AE%B0%5CPic%5C1566906643014.png" alt="1566906643014"></p>
+<p>​    默认指针HEAD指向最近的一个版本信息，回退意味着将指针指向以前的版本</p>
+<h6 id="1）基于索引值操作-推荐"><a href="#1）基于索引值操作-推荐" class="headerlink" title="1）基于索引值操作(推荐)"></a>1）基于索引值操作(推荐)</h6><p>​    git   reset   –hard    索引值</p>
+<p><img src="E:%5CTypora%E7%AC%94%E8%AE%B0%5CPic%5C1566906975179.png" alt="1566906975179"></p>
+<p><img src="E:%5CTypora%E7%AC%94%E8%AE%B0%5CPic%5C1566907067702.png" alt="1566907067702"></p>
+<p>​            <strong>版本已回退</strong></p>
+<h6 id="2）使用-符号（只能往后退）"><a href="#2）使用-符号（只能往后退）" class="headerlink" title="2）使用^符号（只能往后退）"></a>2）使用^符号（只能往后退）</h6><p>​    指令：git   reset  –hard  HEAD^             回退一步（有几个^，就往后面回退几个版本）</p>
+<p><img src="E:%5CTypora%E7%AC%94%E8%AE%B0%5CPic%5C1566907414116.png" alt="1566907414116"></p>
+<h6 id="3-使用-符号（只能后退）"><a href="#3-使用-符号（只能后退）" class="headerlink" title="3)  使用 ~ 符号（只能后退）"></a>3)  使用 ~ 符号（只能后退）</h6><p>​    指令：git   reset  –hard  HEAD~3            后退3个版本</p>
+<p><img src="E:%5CTypora%E7%AC%94%E8%AE%B0%5CPic%5C1566909958398.png" alt="1566909958398"></p>
+<h6 id="4）reset三个参数对比"><a href="#4）reset三个参数对比" class="headerlink" title="4）reset三个参数对比"></a>4）reset三个参数对比</h6><p>–soft</p>
+<p>​    仅仅在本地库移动HEAD指针</p>
+<p>–mixed</p>
+<p>​    在本地库移动HEAD指针</p>
+<p>​    重置缓存区</p>
+<p>–hard</p>
+<p>​    在本地库移动HEAD指针</p>
+<p>​    重置缓存区</p>
+<p>​    重置工作区</p>
+<h5 id="4-永久删除文件后找回"><a href="#4-永久删除文件后找回" class="headerlink" title="4.永久删除文件后找回"></a>4.永久删除文件后找回</h5><p>​    创建并提交一个文件到本地仓库</p>
+<p><img src="E:%5CTypora%E7%AC%94%E8%AE%B0%5CPic%5C1566916935159.png" alt="1566916935159"></p>
+<p>​    完全删除aaa.txt文件</p>
+<p><img src="E:%5CTypora%E7%AC%94%E8%AE%B0%5CPic%5C1566917138883.png" alt="1566917138883"></p>
+<p><img src="E:%5CTypora%E7%AC%94%E8%AE%B0%5CPic%5C1566917299939.png" alt="1566917299939"></p>
+<p>通过回退到之前版本的方式，找回已经在本地库删除的文件</p>
+<p>如果新建一个文件，已经从工作区删除提交到了缓存区，也能使用hard指令，将本地库的版本作为同一版本进行三区还原的操作</p>
+<p><img src="E:%5CTypora%E7%AC%94%E8%AE%B0%5CPic%5C1566917912408.png" alt="1566917912408"></p>
+<p><img src="E:%5CTypora%E7%AC%94%E8%AE%B0%5CPic%5C1566918000316.png" alt="1566918000316"></p>
+]]></content>
+  </entry>
+</search>
